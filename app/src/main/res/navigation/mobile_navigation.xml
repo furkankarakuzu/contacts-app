@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_mesajgonder">
+    <fragment
+        android:id="@+id/nav_mesajgonder"
+        android:name="com.example.contactsapp.MesajGonder"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_mesaj_gonder" />
+    <fragment
+        android:id="@+id/nav_grupolustur"
+        android:name="com.example.contactsapp.GrupOlustur"
+        android:label="@string/menu_grupolustur"
+        tools:layout="@layout/fragment_grup_olustur" />
+    <fragment
+        android:id="@+id/nav_grubauyeekle"
+        android:name="com.example.contactsapp.GrubaUyeEkle"
+        android:label="@string/menu_grubauyeekle"
+        tools:layout="@layout/fragment_gruba_uye_ekle" />
+    <fragment
+        android:id="@+id/nav_mesajolustur"
+        android:name="com.example.contactsapp.MesajOlustur"
+        android:label="@string/menu_mesajolustur"
+        tools:layout="@layout/fragment_mesaj_olustur" />
+</navigation>

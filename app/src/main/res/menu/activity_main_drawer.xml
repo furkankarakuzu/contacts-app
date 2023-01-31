@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grupolustur"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_grupolustur" />
+        <item
+            android:id="@+id/nav_grubauyeekle"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="@string/menu_grubauyeekle" />
+        <item
+            android:id="@+id/nav_mesajolustur"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/menu_mesajolustur" />
+        <item
+            android:id="@+id/nav_mesajgonder"
+            android:icon="@android:drawable/checkbox_on_background"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_cikisYap"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Çıkış Yap" />
+    </group>
+</menu>
